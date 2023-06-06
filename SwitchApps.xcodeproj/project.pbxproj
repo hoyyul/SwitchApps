@@ -14,6 +14,10 @@
 		407A58A92A2D7EC400DD03F3 /* SwitchAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58A82A2D7EC400DD03F3 /* SwitchAppsTests.swift */; };
 		407A58B32A2D7EC400DD03F3 /* SwitchAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58B22A2D7EC400DD03F3 /* SwitchAppsUITests.swift */; };
 		407A58B52A2D7EC400DD03F3 /* SwitchAppsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58B42A2D7EC400DD03F3 /* SwitchAppsUITestsLaunchTests.swift */; };
+		407A58C22A2EF89D00DD03F3 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C12A2EF89D00DD03F3 /* NavigationStackView.swift */; };
+		407A58C42A2EFE7700DD03F3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C32A2EFE7700DD03F3 /* Data.swift */; };
+		407A58C62A2F130D00DD03F3 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C52A2F130D00DD03F3 /* MessageView.swift */; };
+		407A58C82A2F15A500DD03F3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C72A2F15A500DD03F3 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		407A58AE2A2D7EC400DD03F3 /* SwitchAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		407A58B22A2D7EC400DD03F3 /* SwitchAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAppsUITests.swift; sourceTree = "<group>"; };
 		407A58B42A2D7EC400DD03F3 /* SwitchAppsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchAppsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		407A58C12A2EF89D00DD03F3 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
+		407A58C32A2EFE7700DD03F3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		407A58C52A2F130D00DD03F3 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		407A58C72A2F15A500DD03F3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				407A58972A2D7EC300DD03F3 /* SwitchAppsApp.swift */,
 				407A58992A2D7EC300DD03F3 /* ContentView.swift */,
+				407A58C72A2F15A500DD03F3 /* MenuView.swift */,
+				407A58C52A2F130D00DD03F3 /* MessageView.swift */,
+				407A58C12A2EF89D00DD03F3 /* NavigationStackView.swift */,
+				407A58C32A2EFE7700DD03F3 /* Data.swift */,
 				407A589B2A2D7EC400DD03F3 /* Assets.xcassets */,
 				407A589D2A2D7EC400DD03F3 /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				407A589A2A2D7EC300DD03F3 /* ContentView.swift in Sources */,
+				407A58C82A2F15A500DD03F3 /* MenuView.swift in Sources */,
+				407A58C22A2EF89D00DD03F3 /* NavigationStackView.swift in Sources */,
 				407A58982A2D7EC300DD03F3 /* SwitchAppsApp.swift in Sources */,
+				407A58C42A2EFE7700DD03F3 /* Data.swift in Sources */,
+				407A58C62A2F130D00DD03F3 /* MessageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
