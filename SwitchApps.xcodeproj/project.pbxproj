@@ -18,6 +18,8 @@
 		407A58C42A2EFE7700DD03F3 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C32A2EFE7700DD03F3 /* Data.swift */; };
 		407A58C62A2F130D00DD03F3 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C52A2F130D00DD03F3 /* MessageView.swift */; };
 		407A58C82A2F15A500DD03F3 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C72A2F15A500DD03F3 /* MenuView.swift */; };
+		407A58CA2A2F494300DD03F3 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58C92A2F494300DD03F3 /* ChartView.swift */; };
+		407A58CC2A2F524A00DD03F3 /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407A58CB2A2F524A00DD03F3 /* RadialLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		407A58C32A2EFE7700DD03F3 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		407A58C52A2F130D00DD03F3 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		407A58C72A2F15A500DD03F3 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		407A58C92A2F494300DD03F3 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		407A58CB2A2F524A00DD03F3 /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +112,10 @@
 				407A58C52A2F130D00DD03F3 /* MessageView.swift */,
 				407A58C12A2EF89D00DD03F3 /* NavigationStackView.swift */,
 				407A58C32A2EFE7700DD03F3 /* Data.swift */,
+				407A58C92A2F494300DD03F3 /* ChartView.swift */,
 				407A589B2A2D7EC400DD03F3 /* Assets.xcassets */,
 				407A589D2A2D7EC400DD03F3 /* Preview Content */,
+				407A58CB2A2F524A00DD03F3 /* RadialLayoutView.swift */,
 			);
 			path = SwitchApps;
 			sourceTree = "<group>";
@@ -272,9 +278,11 @@
 				407A589A2A2D7EC300DD03F3 /* ContentView.swift in Sources */,
 				407A58C82A2F15A500DD03F3 /* MenuView.swift in Sources */,
 				407A58C22A2EF89D00DD03F3 /* NavigationStackView.swift in Sources */,
+				407A58CA2A2F494300DD03F3 /* ChartView.swift in Sources */,
 				407A58982A2D7EC300DD03F3 /* SwitchAppsApp.swift in Sources */,
 				407A58C42A2EFE7700DD03F3 /* Data.swift in Sources */,
 				407A58C62A2F130D00DD03F3 /* MessageView.swift in Sources */,
+				407A58CC2A2F524A00DD03F3 /* RadialLayoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
